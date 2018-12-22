@@ -285,6 +285,7 @@
         };
 
         box.whiskers = function(x) {
+            console.log('box.whiskers : ' + x)
             if (!arguments.length) return whiskers;
             whiskers = x;
             return box;
